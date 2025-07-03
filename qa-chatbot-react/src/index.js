@@ -3,7 +3,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 // ✅ .env에서 불러오기
-const BASE_URL = process.env.BASE_URL || "/api";
+const BASE_URL = "https://amuredo.com/api/";;
 
 const container = document.getElementById('root');
 const root = createRoot(container);
