@@ -19,7 +19,8 @@ load_dotenv()
 app = FastAPI(
     title="현대자동차 매뉴얼 QA API",
     description="JSON 기반 매뉴얼 질의응답 시스템",
-    version="2.0.0"
+    version="2.0.0",
+    root_path="/api"
 )
 
 # CORS 설정
