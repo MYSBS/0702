@@ -3,7 +3,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 // ✅ .env에서 불러오기
-const BASE_URL = "http://127.0.0.1:8000/";
+const BASE_URL = import.meta.env.VITE_BASE_URL || "/api";
 
 const container = document.getElementById('root');
 const root = createRoot(container);
