@@ -3,8 +3,7 @@ import { MessageCircle, Send, Car, Book, User, Bot, Loader, CheckCircle, AlertCi
 import { marked } from 'marked';
 
 // ✅ .env에서 불러오기
-const BASE_URL = import.meta.env.VITE_BASE_URL || "/api";
-
+const BASE_URL = process.env.BASE_URL || "/api";
 // marked 설정
 marked.setOptions({
   headerIds: false,
