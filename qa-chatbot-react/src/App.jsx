@@ -3,7 +3,7 @@ import { MessageCircle, Send, Car, Book, User, Bot, Loader, CheckCircle, AlertCi
 import { marked } from 'marked';
 
 // ✅ .env에서 불러오기
-const BASE_URL = "https://amuredo.com/api";
+const BASE_URL = "https://amuredo.me/api";
 
 // marked 설정
 marked.setOptions({

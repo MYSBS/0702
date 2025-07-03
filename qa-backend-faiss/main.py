@@ -26,7 +26,7 @@ app = FastAPI(
 # CORS 설정
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://amuredo.me", "http://localhost:1234", "http://localhost:3000", "http://localhost:13692",],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
